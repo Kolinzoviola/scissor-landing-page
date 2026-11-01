@@ -1,0 +1,387 @@
+/* General styles for the site */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #141414;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.blue-text {
+  color: #005ae2;
+}
+
+.blue-button {
+  background-color: #005ae2;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.white-button {
+  background-color: white;
+  color: #005ae2;
+  border: 1px solid #005ae2;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  color: #005ae2;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logo img {
+  width: 22px;
+  vertical-align: middle;
+}
+
+.nav-links a {
+  margin: 0 20px;
+  color: #1e3448;
+}
+
+.nav-links .active {
+  color: #005ae2;
+}
+
+.login {
+  color: #005ae2;
+  margin-right: 20px;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fdf8f3;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  width: 600px;
+  margin: 20px auto;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.learn-more {
+  color: #005ae2;
+  margin-left: 30px;
+}
+
+.hero-box {
+  width: 500px;
+  margin: 50px auto 0;
+  padding: 30px;
+  border: 1px solid #c3dbff;
+  border-radius: 12px;
+  background-color: #f0f5fc;
+}
+
+.hero-box p {
+  width: auto;
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.links-picture {
+  font-size: 24px !important;
+  margin-bottom: 20px !important;
+}
+
+/* Stats section */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 80px;
+  background-color: #f9fbfd;
+}
+
+.stat h3 {
+  font-size: 28px;
+}
+
+.stat p {
+  font-size: 13px;
+}
+
+/* Why choose section */
+.why {
+  display: flex;
+  padding: 80px;
+  gap: 60px;
+}
+
+.why-left {
+  width: 35%;
+}
+
+.why-left p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.why-right {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.feature {
+  width: 45%;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #e6f0ff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.icon img {
+  width: 20px;
+}
+
+.feature h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Pricing section */
+.pricing {
+  text-align: center;
+  padding: 40px 20px 80px;
+}
+
+.pricing p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.card {
+  width: 270px;
+  text-align: left;
+  padding: 30px;
+  border: 1px solid #c3dbff;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.card h3 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.card ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.card li {
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.dark-card {
+  background-color: #1e3448;
+  color: white;
+  padding: 60px 30px;
+}
+
+.pricing-buttons a {
+  margin: 0 8px;
+}
+
+/* Trim URL section */
+.trim {
+  background-color: #1e3448;
+  padding: 60px 20px;
+}
+
+.trim-box {
+  width: 450px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.trim-box input,
+.trim-box select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #005ae2;
+  border-radius: 10px;
+  color: #005ae2;
+}
+
+.two-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.trim-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #005ae2;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.small-text {
+  font-size: 12px;
+  color: gray;
+}
+
+.small-text b {
+  color: #005ae2;
+}
+
+/* FAQs section */
+.faqs {
+  width: 650px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.faqs h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.question {
+  border-bottom: 1px solid #d6dde6;
+  padding: 15px 0;
+}
+
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.question-title span {
+  font-size: 20px;
+}
+
+.answer {
+  margin-top: 10px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* Banner */
+.banner {
+  background-color: #1e3448;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner h2 {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  padding: 50px 80px;
+  gap: 50px;
+}
+
+.footer-logo {
+  width: 180px;
+}
+
+.dark-logo {
+  color: #1e3448;
+}
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials img {
+  width: 18px;
+  margin-right: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.column {
+  width: 150px;
+}
+
+.column h4 {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.column a {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  text-align: right;
+  font-size: 12px;
+  padding: 20px 80px;
+}
